@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36960D1895BCEF650BBAEEC4 /* libPods-Block传值.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00752852695485DB41DEA2CB /* libPods-Block传值.a */; };
 		A440682C20510D34007566E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A440682B20510D34007566E1 /* AppDelegate.m */; };
-		A440682F20510D34007566E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440682E20510D34007566E1 /* ViewController.m */; };
-		A440683220510D34007566E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A440683020510D34007566E1 /* Main.storyboard */; };
 		A440683420510D34007566E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A440683320510D34007566E1 /* Assets.xcassets */; };
-		A440683720510D34007566E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A440683520510D34007566E1 /* LaunchScreen.storyboard */; };
 		A440683A20510D34007566E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A440683920510D34007566E1 /* main.m */; };
 		A440684420510D34007566E1 /* Block__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440684320510D34007566E1 /* Block__Tests.m */; };
 		A440684F20510D34007566E1 /* Block__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440684E20510D34007566E1 /* Block__UITests.m */; };
+		A440685E20510E1D007566E1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440685D20510E1D007566E1 /* FirstViewController.m */; };
+		A440686120510E24007566E1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440685F20510E24007566E1 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00752852695485DB41DEA2CB /* libPods-Block传值.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Block传值.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC6D900856EB678E1E94ED4 /* Pods-Block传值.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Block传值.release.xcconfig"; path = "Pods/Target Support Files/Pods-Block传值/Pods-Block传值.release.xcconfig"; sourceTree = "<group>"; };
 		A440682720510D34007566E1 /* Block传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A440682A20510D34007566E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A440682B20510D34007566E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A440682D20510D34007566E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A440682E20510D34007566E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A440683120510D34007566E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A440683320510D34007566E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A440683620510D34007566E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A440683820510D34007566E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A440683920510D34007566E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A440683F20510D34007566E1 /* Block传值Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block传值Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,11 @@
 		A440684A20510D34007566E1 /* Block传值UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block传值UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A440684E20510D34007566E1 /* Block__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block__UITests.m; sourceTree = "<group>"; };
 		A440685020510D34007566E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A440685C20510E1C007566E1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A440685D20510E1D007566E1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A440685F20510E24007566E1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A440686020510E24007566E1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D0877D31EA861DD03AC9B76E /* Pods-Block传值.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Block传值.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Block传值/Pods-Block传值.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36960D1895BCEF650BBAEEC4 /* libPods-Block传值.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280E99DA9FBC5965A956A2E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00752852695485DB41DEA2CB /* libPods-Block传值.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A440681E20510D34007566E1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,8 @@
 				A440684220510D34007566E1 /* Block传值Tests */,
 				A440684D20510D34007566E1 /* Block传值UITests */,
 				A440682820510D34007566E1 /* Products */,
+				EC32BB9CA99A9D9FEF192D4A /* Pods */,
+				280E99DA9FBC5965A956A2E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +117,11 @@
 			children = (
 				A440682A20510D34007566E1 /* AppDelegate.h */,
 				A440682B20510D34007566E1 /* AppDelegate.m */,
-				A440682D20510D34007566E1 /* ViewController.h */,
-				A440682E20510D34007566E1 /* ViewController.m */,
-				A440683020510D34007566E1 /* Main.storyboard */,
+				A440685C20510E1C007566E1 /* FirstViewController.h */,
+				A440685D20510E1D007566E1 /* FirstViewController.m */,
+				A440686020510E24007566E1 /* SecondViewController.h */,
+				A440685F20510E24007566E1 /* SecondViewController.m */,
 				A440683320510D34007566E1 /* Assets.xcassets */,
-				A440683520510D34007566E1 /* LaunchScreen.storyboard */,
 				A440683820510D34007566E1 /* Info.plist */,
 				A440683920510D34007566E1 /* main.m */,
 			);
@@ -132,6 +146,15 @@
 			path = "Block传值UITests";
 			sourceTree = "<group>";
 		};
+		EC32BB9CA99A9D9FEF192D4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0877D31EA861DD03AC9B76E /* Pods-Block传值.debug.xcconfig */,
+				2BC6D900856EB678E1E94ED4 /* Pods-Block传值.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A440685320510D34007566E1 /* Build configuration list for PBXNativeTarget "Block传值" */;
 			buildPhases = (
+				36C33E260602CC3266F0D693 /* [CP] Check Pods Manifest.lock */,
 				A440682320510D34007566E1 /* Sources */,
 				A440682420510D34007566E1 /* Frameworks */,
 				A440682520510D34007566E1 /* Resources */,
+				FB38D223205A0D593B4CF7A7 /* [CP] Embed Pods Frameworks */,
+				2785925214440A2F08B4229C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A440683720510D34007566E1 /* LaunchScreen.storyboard in Resources */,
 				A440683420510D34007566E1 /* Assets.xcassets in Resources */,
-				A440683220510D34007566E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +284,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2785925214440A2F08B4229C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Block传值/Pods-Block传值-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36C33E260602CC3266F0D693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB38D223205A0D593B4CF7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Block传值/Pods-Block传值-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A440682320510D34007566E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A440682F20510D34007566E1 /* ViewController.m in Sources */,
+				A440686120510E24007566E1 /* SecondViewController.m in Sources */,
 				A440683A20510D34007566E1 /* main.m in Sources */,
+				A440685E20510E1D007566E1 /* FirstViewController.m in Sources */,
 				A440682C20510D34007566E1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,25 +374,6 @@
 			targetProxy = A440684B20510D34007566E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A440683020510D34007566E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A440683120510D34007566E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A440683520510D34007566E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A440683620510D34007566E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A440685120510D34007566E1 /* Debug */ = {
@@ -428,9 +482,11 @@
 		};
 		A440685420510D34007566E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0877D31EA861DD03AC9B76E /* Pods-Block传值.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "Block传值/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delete.Block--";
@@ -441,9 +497,11 @@
 		};
 		A440685520510D34007566E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC6D900856EB678E1E94ED4 /* Pods-Block传值.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "Block传值/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delete.Block--";
